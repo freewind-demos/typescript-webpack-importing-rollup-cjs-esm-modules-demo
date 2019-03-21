@@ -7,8 +7,8 @@
     "lodash": "4.17.11",
     "rollup-plugin-typescript2": "0.20.1",
     "typescript": "3.3.3333",
-    "typescript-webpack-importing-rollup-mjs-es-modules-demo--module1": "0.1.2",
-    "typescript-webpack-importing-rollup-mjs-es-modules-demo--module2": "0.1.1",
+    "typescript-webpack-importing-rollup-mjs-es-modules-demo--module1": "0.1.3",
+    "typescript-webpack-importing-rollup-mjs-es-modules-demo--module2": "0.1.2",
     "webpack": "4.8.3",
     "webpack-cli": "3.3.0"
   },

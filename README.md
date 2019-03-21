@@ -27,9 +27,9 @@ import {module1} from 'typescript-webpack-importing-rollup-mjs-es-modules-demo--
 
    这样做可以简单的解决问题，但是有一个顾虑，就是它将会同时指定所有引用的模块优先使用的字段。有没有办法单独指定？
 
-2. 在该项目中引用这两个module时，指定使用js文件：`import {module1} from 'typescript-webpack-importing-rollup-mjs-es-modules-demo--module1/dist/bundle.js';`
+2. 在该项目中引用这两个module时，指定使用js文件：`import {module1} from 'typescript-webpack-importing-rollup-mjs-es-modules-demo--module1/dist/index.js';`
    
-   不过这种办法有一个问题，就是在typescript中这么做会报错，因为直接引用某个js文件时，会找不到对应的typing，所以要么只能加上`// @ts-ignore`（不好），或者使用前一种办法。
+   注意，在使用这种办法时，要求`index.js`与`index.d.ts`两者的文件名主要部分需要一致，否则会找不到，得加上`// @ts-ignore`
 
 运行：
    

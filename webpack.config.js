@@ -8,8 +8,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['.ts', '.tsx'],
-    mainFields: ['main']
+    extensions: ['.ts', '.tsx']
   },
   module: {
     rules: [{
